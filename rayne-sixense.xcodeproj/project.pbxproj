@@ -6,8 +6,19 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D5D2ADD31A333457006C5C96 /* SXSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D2ADD11A333457006C5C96 /* SXSystem.cpp */; };
+		D5D2ADD41A333457006C5C96 /* SXSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = D5D2ADD21A333457006C5C96 /* SXSystem.h */; };
+		D5D2ADD71A333CA8006C5C96 /* SXController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D2ADD51A333CA8006C5C96 /* SXController.cpp */; };
+		D5D2ADD81A333CA8006C5C96 /* SXController.h in Headers */ = {isa = PBXBuildFile; fileRef = D5D2ADD61A333CA8006C5C96 /* SXController.h */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		D5D2ADC91A333361006C5C96 /* librayne-sixense.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "librayne-sixense.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5D2ADD11A333457006C5C96 /* SXSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SXSystem.cpp; sourceTree = "<group>"; };
+		D5D2ADD21A333457006C5C96 /* SXSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXSystem.h; sourceTree = "<group>"; };
+		D5D2ADD51A333CA8006C5C96 /* SXController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SXController.cpp; sourceTree = "<group>"; };
+		D5D2ADD61A333CA8006C5C96 /* SXController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,6 +35,7 @@
 		D5D2ADC01A333361006C5C96 = {
 			isa = PBXGroup;
 			children = (
+				D5D2ADD01A3333B4006C5C96 /* Classes */,
 				D5D2ADCA1A333361006C5C96 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -36,6 +48,17 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		D5D2ADD01A3333B4006C5C96 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D5D2ADD51A333CA8006C5C96 /* SXController.cpp */,
+				D5D2ADD61A333CA8006C5C96 /* SXController.h */,
+				D5D2ADD11A333457006C5C96 /* SXSystem.cpp */,
+				D5D2ADD21A333457006C5C96 /* SXSystem.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -43,6 +66,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5D2ADD41A333457006C5C96 /* SXSystem.h in Headers */,
+				D5D2ADD81A333CA8006C5C96 /* SXController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +127,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5D2ADD71A333CA8006C5C96 /* SXController.cpp in Sources */,
+				D5D2ADD31A333457006C5C96 /* SXSystem.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,6 +215,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/usr/local/include/rayne/,
+					"\"$(SRCROOT)/Vendor/include\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -205,6 +233,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/usr/local/include/rayne/,
+					"\"$(SRCROOT)/Vendor/include\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

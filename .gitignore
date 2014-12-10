@@ -1,3 +1,5 @@
 Vendor/include
 Vendor/lib
 rayne-sixense.xcodeproj/xcuserdata/Slin.xcuserdatad/xcdebugger
+Debug/
+Release/

@@ -1,0 +1,1 @@
+rayne-sixense is released under the MIT license, the needed Sixense SDK has its own license and can be downloaded at http://sixense.com/sixensecoreapi.

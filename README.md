@@ -1,0 +1,2 @@
+Sixense module, which can be used to integrate Razor Hydra (and in the future Sixense STEM) support into Rayne.
+This repo comes without the Sixense SDK, which can be downloaded at http://sixense.com/sixensecoreapi and the lib and include folder from that download needs to be placed in the Vendor folder.
